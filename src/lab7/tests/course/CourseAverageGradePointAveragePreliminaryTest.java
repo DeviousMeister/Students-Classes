@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import lab5.tests.utils.UnitTestUtils;
+import lab7.tests.util.UnitTestUtils;
 import lab7.Course;
 import lab7.Student;
 import lab7.tests.util.GradeCreditPair;

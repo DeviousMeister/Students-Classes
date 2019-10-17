@@ -2,7 +2,7 @@ package lab7.tests.util;
 
 import java.util.Random;
 
-import lab5.tests.utils.StringTestUtils;
+import lab7.tests.util.StringTestUtils;
 import lab7.Student;
 
 /**

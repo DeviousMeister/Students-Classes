@@ -6,7 +6,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestRule;
 
-import lab5.tests.utils.UnitTestUtils;
+import lab7.tests.util.UnitTestUtils;
 import lab7.Student;
 
 /**
@@ -24,7 +24,7 @@ public class StudentStandingTest {
 		Student s = new Student("D", "S", 1);
 		for (int i = 0; i < 29; i++) {
 			s.submitGrade(2.0, 1);
-			assertEquals(message, "FirstYear", s.getClassStanding());
+			assertEquals(message, "First Year", s.getClassStanding());
 		}
 
 		for (int i = 0; i < 30; i++) {
@@ -49,7 +49,7 @@ public class StudentStandingTest {
 		Student s = new Student("D", "S", 1);
 		for (int i = 0; i < 200; i++) {
 			s.submitGrade(1.0, 1);
-			assertEquals(message, "FirstYear", s.getClassStanding());
+			assertEquals(message, "First Year", s.getClassStanding());
 		}
 	}
 }

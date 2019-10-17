@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import lab5.tests.utils.StringTestUtils;
-import lab5.tests.utils.UnitTestUtils;
+import lab7.tests.util.StringTestUtils;
+import lab7.tests.util.UnitTestUtils;
 import lab7.Student;
 
 /**

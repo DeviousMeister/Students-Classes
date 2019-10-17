@@ -6,7 +6,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestRule;
 
-import lab5.tests.utils.UnitTestUtils;
+import lab7.tests.util.UnitTestUtils;
 import lab7.Course;
 
 /**

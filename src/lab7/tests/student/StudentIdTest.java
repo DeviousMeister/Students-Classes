@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import lab5.tests.utils.UnitTestUtils;
+import lab7.tests.util.UnitTestUtils;
 import lab7.Student;
 
 /**
@@ -36,7 +36,7 @@ public class StudentIdTest {
 
 	@Test
 	public void test() {
-		Student student = new Student("Yevgény", "Bazárov", id);
+		Student student = new Student("Yevgï¿½ny", "Bazï¿½rov", id);
 		assertEquals(id, student.getId());
 	}
 

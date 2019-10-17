@@ -10,7 +10,7 @@ import org.junit.Test;
 import org.junit.rules.TestRule;
 import org.junit.runners.MethodSorters;
 
-import lab5.tests.utils.UnitTestUtils;
+import lab7.tests.util.UnitTestUtils;
 import lab7.Course;
 import lab7.Student;
 
